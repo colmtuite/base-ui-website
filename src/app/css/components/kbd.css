@@ -4,7 +4,7 @@
   align-items: center;
   background-clip: padding-box;
   background-color: white;
-  font-weight: 500;
+  font-weight: var(--fw-2);
   padding-left: var(--space-2);
   padding-right: var(--space-2);
   border-radius: var(--br-pill);
