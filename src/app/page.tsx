@@ -96,7 +96,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <main>
+      <main style={{ paddingLeft: 240, paddingRight: 240 }}>
         <div style={{ background: "white", margin: 4, borderRadius: 16 }}>
           <div
             style={{

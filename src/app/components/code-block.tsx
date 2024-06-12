@@ -12,8 +12,32 @@ export default function CodeBlock() {
         style={{
           height: 150,
           borderBottom: "1px solid gainsboro",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
         }}
-      ></div>
+      >
+        <div
+          style={{
+            background: "black",
+            display: "inline-flex",
+            alignItems: "center",
+            height: "var(--space-7)",
+            fontWeight: "var(--fw-2)",
+            color: "white",
+            fontFamily: "var(--ff-sans)",
+            borderRadius: 6,
+            fontSize: "var(--fs-3)",
+            paddingLeft: "var(--space-3)",
+            paddingRight: "var(--space-3)",
+            userSelect: "none",
+            boxSizing: "border-box",
+            lineHeight: "1",
+          }}
+        >
+          Tooltip
+        </div>
+      </div>
       <div
         style={{
           padding: 4,
