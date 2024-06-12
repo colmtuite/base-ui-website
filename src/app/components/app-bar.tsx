@@ -77,7 +77,7 @@ export default function AppBar() {
               ></path>
             </svg>
           </a>
-          <button className="IconButton size-3">
+          <button className="IconButton size-3" aria-label="settings">
             <svg
               width="16"
               height="16"

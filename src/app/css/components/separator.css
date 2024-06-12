@@ -1,4 +1,6 @@
 .Separator {
+  display: inline-flex;
+  box-sizing: border-box;
   width: 1px;
   height: 16px;
   background-color: var(--gray-outline-2);
