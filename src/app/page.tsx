@@ -17,7 +17,84 @@ export default function Home() {
           padding: 16,
         }}
       >
-        <h4 className="Text size-3 weight-2">Getting Started</h4>
+        <div className="pb-4">
+          <div className="d-f ai-center h-7 pl-3">
+            <h4 className="Text size-3 weight-2 c-default">Getting Started</h4>
+          </div>
+          <Link href="/" className="LinkBlock">
+            Overview
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Quick Start
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Usage
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Accessibility
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Releases
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Support
+          </Link>
+        </div>
+        <div className="pb-4">
+          <div className="d-f ai-center h-7 pl-3">
+            <h4 className="Text size-3 weight-2 c-default">Animation</h4>
+          </div>
+          <Link href="/" className="LinkBlock active">
+            Styling
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Animation
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Composition
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Server-side Rendering
+          </Link>
+        </div>
+        <div className="pb-4">
+          <div className="d-f ai-center h-7 pl-3">
+            <h4 className="Text size-3 weight-2 c-default">Components</h4>
+          </div>
+          <Link href="/" className="LinkBlock">
+            Checkbox
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Dialog
+          </Link>
+          <Link href="/" className="LinkBlock">
+            HoverCard
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Menu
+          </Link>
+          <Link href="/" className="LinkBlock">
+            NumberField
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Popover
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Separator
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Slider
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Switch
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Tabs
+          </Link>
+          <Link href="/" className="LinkBlock">
+            Tooltip
+          </Link>
+        </div>
       </div>
       <main>
         <div style={{ background: "white", margin: 4, borderRadius: 16 }}>
