@@ -1,0 +1,6 @@
+.Separator {
+  width: 1px;
+  height: 16px;
+  background-color: var(--gray-outline-2);
+  flex-shrink: 0;
+}
