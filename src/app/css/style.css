@@ -1,6 +1,14 @@
 @import "theme.css";
 @import "reset.css";
 
+@import "components/app-bar.css";
+@import "components/icon.css";
+@import "components/icon-button.css";
+@import "components/kbd.css";
+@import "components/search-button.css";
+@import "components/separator.css";
+@import "components/text.css";
+
 @import "utilities/align-items.css";
 @import "utilities/display.css";
 @import "utilities/flex-direction.css";
@@ -9,10 +17,3 @@
 @import "utilities/justify-content.css";
 @import "utilities/margin.css";
 @import "utilities/padding.css";
-
-@import "components/app-bar.css";
-@import "components/icon.css";
-@import "components/icon-button.css";
-@import "components/kbd.css";
-@import "components/search-button.css";
-@import "components/separator.css";
