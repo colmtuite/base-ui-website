@@ -62,6 +62,9 @@ export default function Home() {
             <h4 className="Text size-3 weight-2 c-default">Components</h4>
           </div>
           <Link href="/" className="LinkBlock">
+            AlertDialog
+          </Link>
+          <Link href="/" className="LinkBlock">
             Checkbox
           </Link>
           <Link href="/" className="LinkBlock">
