@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./css/style.css";
 
 export const metadata: Metadata = {
-  title: "Bae UI Docs",
+  title: "Base UI Docs",
   description: "Base UI Docs",
 };
 
