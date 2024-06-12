@@ -1,4 +1,4 @@
 body {
   margin: 0;
-  background-color: gainsboro;
+  background-color: var(--gray-surface-2);
 }

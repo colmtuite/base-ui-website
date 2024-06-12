@@ -1,0 +1,10 @@
+.AppBar {
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  padding: var(--space-1) var(--space-3);
+  background-color: var(--grayA-surface-2);
+  border-bottom: 1px solid var(--gray-outline-2);
+  background-clip: padding-box;
+  backdrop-filter: blur(5px) saturate(150%);
+}

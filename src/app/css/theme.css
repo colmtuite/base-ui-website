@@ -1,4 +1,16 @@
 :root {
+  --gray-surface-1: hsl(0 0% 99%);
+  --gray-surface-2: hsl(0 0% 97%);
+  --gray-container-1: hsl(0 0% 95%);
+  --gray-container-2: hsl(0 0% 94%);
+  --gray-container-3: hsl(0 0% 92%);
+  --gray-outline-1: hsl(0 0% 93%);
+  --gray-outline-2: hsl(0 0% 88%);
+  --gray-text-1: hsl(0 0% 47%);
+  --gray-text-2: hsl(0 0% 8%);
+
+  --grayA-surface-2: hsl(0 0% 97% / 86%);
+
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
