@@ -14,7 +14,7 @@ export default function Home() {
           width: 240,
           height: "calc(100% - 49px)",
           borderRight: "1px solid gainsboro",
-          padding: 16,
+          padding: 12,
         }}
       >
         <div className="pb-4">
@@ -152,7 +152,7 @@ export default function Home() {
           width: 240,
           height: "calc(100% - 49px)",
           borderLeft: "1px solid gainsboro",
-          padding: 16,
+          padding: 12,
         }}
       >
         <h4 className="Text size-3 weight-2">Contents</h4>
