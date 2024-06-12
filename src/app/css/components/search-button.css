@@ -13,7 +13,7 @@
   justify-content: space-between;
   border-radius: var(--br-pill);
   font-family: var(--ff-sans);
-  font-size: 14px;
+  font-size: var(--fs-3);
   color: var(--gray-text-1);
   width: 186px;
   gap: var(--space-2);
