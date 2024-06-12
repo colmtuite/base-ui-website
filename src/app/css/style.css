@@ -2,6 +2,7 @@
 @import "reset.css";
 
 @import "components/app-bar.css";
+@import "components/code.css";
 @import "components/icon.css";
 @import "components/icon-button.css";
 @import "components/kbd.css";

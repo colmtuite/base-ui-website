@@ -116,9 +116,11 @@ export default function Home() {
             <CodeBlock />
             <h2 className="Text size-6 mt-6 mb-3">Installation</h2>
             <p className="Text size-4 mb-3">
-              A valid outcome of this proposal is just saying that after going
-              back and forth many times, we think this decision is higher-level,
-              presenting the information that has been shared here.
+              A valid outcome of this{" "}
+              <code className="Code">Component.Proposal</code> is just saying
+              that after going back and forth many times, we think this decision
+              is higher-level, presenting the information that has been shared
+              here.
             </p>
             <p className="Text size-4 mb-3">
               We drilled down onto this problem and found out that it touches
