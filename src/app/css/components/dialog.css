@@ -4,9 +4,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsl(0deg 0% 100% / 50%);
+  background-color: hsl(0deg 0% 100% / 75%);
   z-index: 1;
-  backdrop-filter: blur(1px) grayscale(50%);
+  backdrop-filter: grayscale(50%);
 }
 
 .DialogPopup {
@@ -18,7 +18,12 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  box-shadow: 0 15px 48px -8px rgba(0,0,0,.3);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, .025),
+    0 8px 36px -6px rgba(0, 0, 0, .025),
+    0 12px 64px -6px rgba(0, 0, 0, .1),
+    0 16px 64px -8px rgba(0, 0, 0, .1),
+    0 16px 36px -8px rgba(0, 0, 0, .1);
   border-radius: 16px;
   z-index: 2;
 }

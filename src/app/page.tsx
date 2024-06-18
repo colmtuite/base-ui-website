@@ -447,7 +447,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div className="DialogBackdrop"></div>
+            {/* <div className="DialogBackdrop"></div>
             <div className="DialogPopup">
               <div className="d-f fd-column g-1">
                 <h2 className="Text size-5">Provide Feedback</h2>
@@ -499,7 +499,7 @@ export default function Home() {
                 <button className="Button">Cancel</button>
                 <button className="Button">Submit</button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
