@@ -2,8 +2,10 @@
 @import "reset.css";
 
 @import "components/app-bar.css";
+@import "components/button.css";
 @import "components/callout.css";
 @import "components/code.css";
+@import "components/dialog.css";
 @import "components/growing-chevron.css";
 @import "components/icon.css";
 @import "components/icon-button.css";
@@ -14,6 +16,7 @@
 @import "components/separator.css";
 @import "components/table.css";
 @import "components/text.css";
+@import "components/textarea.css";
 @import "components/toggle.css";
 
 @import "utilities/align-items.css";

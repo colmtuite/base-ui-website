@@ -447,6 +447,19 @@ export default function Home() {
                 </div>
               </a>
             </div>
+            <div className="DialogBackdrop"></div>
+            <div className="DialogPopup">
+              <h2 className="Text size-5">Complaints</h2>
+              <p className="Text size-3">
+                We honestly don't give a shit, but you can whine about your
+                complaint below.
+              </p>
+              <textarea className="Textarea">
+                Type your bullshit complaint here
+              </textarea>
+              <button className="Button">Cancel</button>
+              <button className="Button">Submit</button>
+            </div>
           </div>
         </div>
       </main>
