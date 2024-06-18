@@ -68,6 +68,9 @@ export default function Home() {
             Checkbox
           </Link>
           <Link href="/" className="LinkBlock">
+            CheckboxGroup
+          </Link>
+          <Link href="/" className="LinkBlock">
             Dialog
           </Link>
           <Link href="/" className="LinkBlock">
@@ -81,6 +84,9 @@ export default function Home() {
           </Link>
           <Link href="/" className="LinkBlock">
             Popover
+          </Link>
+          <Link href="/" className="LinkBlock">
+            RadioGroup
           </Link>
           <Link href="/" className="LinkBlock">
             Separator
@@ -134,8 +140,8 @@ export default function Home() {
             <p className="Text size-4 mb-3">
               If a prototype would help the decision, I would be more than happy
               to do it. I’m sooo eager to stop discussing and start building at
-              this point 😅 But even before prototyping, it would be good to
-              have directions from the people who will make the decision: what
+              this point. But even before prototyping, it would be good to have
+              directions from the people who will make the decision: what
               information would they need? what should we prototype exactly?
             </p>
             <p className="Text size-4 mb-3">
@@ -143,6 +149,65 @@ export default function Home() {
               the higher level? is it worth it even proposing something? how do
               we drive this need for direction forward?
             </p>
+            <h2 className="Text size-6 mt-6 mb-3">API Reference</h2>
+            <div className="TableRoot">
+              <table className="TableTable">
+                <thead>
+                  <tr className="TableRow">
+                    <th className="TableColumnHeader" scope="col">
+                      Prop
+                    </th>
+                    <th className="TableColumnHeader" scope="col">
+                      Type
+                    </th>
+                    <th className="TableColumnHeader" scope="col">
+                      Default
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI. We cannot
+                      solve this problem in the Core realm.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </main>

@@ -15,6 +15,7 @@
   font-family: var(--ff-sans);
   font-size: var(--fs-3);
   cursor: pointer;
+  color: var(--gray-text-2);
 }
 
 @media screen and (hover: hover) {

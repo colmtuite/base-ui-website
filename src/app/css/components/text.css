@@ -17,7 +17,7 @@
 
 .Text.size-3 {
   font-size: var(--fs-3);
-  line-height: 1;
+  line-height: 18px;
 }
 
 .Text.size-4 {
@@ -36,7 +36,7 @@
   font-size: var(--fs-6);
   line-height: 24px;
   font-weight: 500;
-  letter-spacing: -.026em;
+  letter-spacing: -.018em;
 }
 
 .Text.size-7 {

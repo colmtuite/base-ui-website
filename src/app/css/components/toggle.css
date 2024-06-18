@@ -27,6 +27,7 @@
   font-weight: 500;
   border-radius: var(--br-pill);
   font-size: var(--fs-2);
+  color: var(--gray-text-2);
   width: var(--space-9);
   letter-spacing: .18px;
   text-transform: uppercase;
