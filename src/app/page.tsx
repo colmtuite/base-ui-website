@@ -13,7 +13,6 @@ export default function Home() {
           top: 49,
           width: 240,
           height: "calc(100% - 49px)",
-          borderRight: "1px solid gainsboro",
           padding: 12,
         }}
       >
@@ -116,14 +115,21 @@ export default function Home() {
               marginRight: "auto",
             }}
           >
-            <h1 className="Text size-8 mb-2">Tooltip</h1>
-            <p className="Text size-5 color-gray weight-1">
-              A valid outcome of this proposal is just saying that after going
-              back and forth many times, we think this decision is higher-level,
-              presenting the information that has been shared here.
-            </p>
+            <div className="py-9">
+              <h1 className="Text size-8 mb-2">Tooltip</h1>
+              <p className="Text size-5 color-gray weight-1">
+                A valid outcome of this proposal is just saying that after going
+                back and forth many times, we think this decision is
+                higher-level, presenting the information that has been shared
+                here.
+              </p>
+            </div>
             <CodeBlock />
-            <h2 className="Text size-6 mt-6 mb-3">Installation</h2>
+            <h2 className="Text size-6 mt-6 mb-3" id="installation">
+              <a href="#installation" className="Link">
+                Installation
+              </a>
+            </h2>
             <p className="Text size-4 mb-3">
               A valid outcome of this{" "}
               <code className="Code">Component.Proposal</code> is just saying
@@ -136,13 +142,21 @@ export default function Home() {
               all products and not just Material UI. We cannot solve this
               problem in the Core realm.
             </p>
-            <h2 className="Text size-6 mt-6 mb-3">Overview</h2>
+            <h2 className="Text size-6 mt-6 mb-3" id="overview">
+              <a href="#overview" className="Link">
+                Overview
+              </a>
+            </h2>
             <p className="Text size-4 mb-3">
               If a prototype would help the decision, I would be more than happy
               to do it. I’m sooo eager to stop discussing and start building at
               this point. But even before prototyping, it would be good to have
-              directions from the people who will make the decision: what
-              information would they need? what should we prototype exactly?
+              directions from the people who will{" "}
+              <Link href="#" className="Link">
+                make the decision
+              </Link>{" "}
+              like what information would they need? what should we prototype
+              exactly?
             </p>
             <div className="Callout" style={{ margin: "24px 0 32px 0" }}>
               <svg
@@ -190,8 +204,17 @@ export default function Home() {
                 for future updates.
               </p>
             </div>
-            <h2 className="Text size-6 mt-6 mb-3">API Reference</h2>
-            <h3 className="Text size-5 mt-6 mb-3">Provider</h3>
+
+            <h2 className="Text size-6 mt-6 mb-3" id="api">
+              <a href="#api" className="Link">
+                API Reference
+              </a>
+            </h2>
+            <h3 className="Text size-5 mt-6 mb-3" id="provider">
+              <a href="#provider" className="Link">
+                Provider
+              </a>
+            </h3>
             <p className="Text size-4 mb-3">
               Wraps around <code className="Code">&lt;App /&gt;</code> or a
               group of
@@ -311,7 +334,11 @@ export default function Home() {
               </table>
             </div>
 
-            <h3 className="Text size-5 mt-6 mb-3">Root</h3>
+            <h3 className="Text size-5 mt-6 mb-3" id="root">
+              <a href="#root" className="Link">
+                Root
+              </a>
+            </h3>
             <p className="Text size-4 mb-3">
               A top-level component that wraps the other components.
             </p>
