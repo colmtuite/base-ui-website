@@ -20,3 +20,10 @@
   color: var(--gray-text-2);
   background-color: var(--gray-container-1);
 }
+
+.Button:focus-visible {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: black;
+  outline-offset: 2px;
+}
