@@ -2,6 +2,7 @@
 @import "reset.css";
 
 @import "components/app-bar.css";
+@import "components/callout.css";
 @import "components/code.css";
 @import "components/growing-chevron.css";
 @import "components/icon.css";
