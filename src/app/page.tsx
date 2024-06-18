@@ -208,6 +208,80 @@ export default function Home() {
                 </tbody>
               </table>
             </div>
+
+            <div className="d-f ai-center jc-center g-3 py-9">
+              <a
+                href="#"
+                className="LinkBlock jc-end"
+                style={{ minWidth: 200, height: "auto" }}
+              >
+                <div className="d-f fd-column g-2 ai-end">
+                  <span className="Text size-3 color-gray">Previous</span>
+                  <div className="d-f ai-center g-1">
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        className="GrowingChevron direction-left"
+                      >
+                        <path
+                          d="M2.5 8H13.5"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          className="GrowingChevronLine"
+                        />
+                        <path
+                          d="M9 3.5L13.5 8L9 12.5"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          className="GrowingChevronTip"
+                        />
+                      </svg>
+                    </div>
+                    <span className="Text size-4">Dialog</span>
+                  </div>
+                </div>
+              </a>
+              <span role="separator" className="Separator" />
+              <a
+                href="#"
+                className="LinkBlock"
+                style={{ minWidth: 200, height: "auto" }}
+              >
+                <div className="d-f fd-column g-2">
+                  <span className="Text size-3 color-gray">Next</span>
+                  <div className="d-f fd-rr ai-center g-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="GrowingChevron direction-right"
+                    >
+                      <path
+                        d="M2.5 8H13.5"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        className="GrowingChevronLine"
+                      />
+                      <path
+                        d="M9 3.5L13.5 8L9 12.5"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        className="GrowingChevronTip"
+                      />
+                    </svg>
+                    <span className="Text size-4">HoverCard</span>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </main>
