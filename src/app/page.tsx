@@ -160,13 +160,32 @@ export default function Home() {
               <table className="TableTable">
                 <thead>
                   <tr className="TableRow">
-                    <th className="TableColumnHeader" scope="col">
+                    <th
+                      className="TableColumnHeader"
+                      scope="col"
+                      style={{ width: "25%" }}
+                    >
                       Prop
                     </th>
-                    <th className="TableColumnHeader" scope="col">
+                    <th
+                      className="TableColumnHeader"
+                      scope="col"
+                      style={{ width: "25%" }}
+                    >
+                      Description
+                    </th>
+                    <th
+                      className="TableColumnHeader"
+                      scope="col"
+                      style={{ width: "25%" }}
+                    >
                       Type
                     </th>
-                    <th className="TableColumnHeader" scope="col">
+                    <th
+                      className="TableColumnHeader"
+                      scope="col"
+                      style={{ width: "25%" }}
+                    >
                       Default
                     </th>
                   </tr>
@@ -174,41 +193,77 @@ export default function Home() {
                 <tbody>
                   <tr className="TableRow">
                     <th className="TableRowHeader" scope="row">
-                      Prop
+                      <code className="Code">longAssPropName</code>
                     </th>
-                    <td className="TableCell">Type</td>
-                    <td className="TableCell">Default</td>
-                  </tr>
-                  <tr className="TableRow">
-                    <th className="TableRowHeader" scope="row">
-                      Prop
-                    </th>
-                    <td className="TableCell">Type</td>
-                    <td className="TableCell">Default</td>
-                  </tr>
-                  <tr className="TableRow">
-                    <th className="TableRowHeader" scope="row">
-                      Prop
-                    </th>
-                    <td className="TableCell">Type</td>
-                    <td className="TableCell">Default</td>
-                  </tr>
-                  <tr className="TableRow">
-                    <th className="TableRowHeader" scope="row">
-                      Prop
-                    </th>
-                    <td className="TableCell">Type</td>
-                    <td className="TableCell">Default</td>
-                  </tr>
-                  <tr className="TableRow">
-                    <th className="TableRowHeader" scope="row">
-                      Prop
-                    </th>
-                    <td className="TableCell">Type</td>
                     <td className="TableCell">
                       We drilled down onto this problem and found out that it
-                      touches all products and not just Material UI. We cannot
-                      solve this problem in the Core realm.
+                      touches all products and not just Material UI.
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">function</code>
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">defaultValue</code>
+                    </td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      <code className="Code">longAssPropName</code>
+                    </th>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI.
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">function</code>
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">defaultValue</code>
+                    </td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      <code className="Code">longAssPropName</code>
+                    </th>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI.
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">function</code>
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">defaultValue</code>
+                    </td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      <code className="Code">longAssPropName</code>
+                    </th>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI.
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">function</code>
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">defaultValue</code>
+                    </td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      <code className="Code">longAssPropName</code>
+                    </th>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI.
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">function</code>
+                    </td>
+                    <td className="TableCell">
+                      <code className="Code">defaultValue</code>
                     </td>
                   </tr>
                 </tbody>
