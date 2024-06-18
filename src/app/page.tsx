@@ -150,6 +150,75 @@ export default function Home() {
               we drive this need for direction forward?
             </p>
             <h2 className="Text size-6 mt-6 mb-3">API Reference</h2>
+            <h3 className="Text size-5 mt-6 mb-3">Provider</h3>
+            <p className="Text size-4 mb-3">
+              Wraps around <code className="Code">&lt;App /&gt;</code> or a
+              group of
+              <code className="Code">&lt;Tooltip.Root&gt;</code> components.
+            </p>
+            <div className="TableRoot">
+              <table className="TableTable">
+                <thead>
+                  <tr className="TableRow">
+                    <th className="TableColumnHeader" scope="col">
+                      Prop
+                    </th>
+                    <th className="TableColumnHeader" scope="col">
+                      Type
+                    </th>
+                    <th className="TableColumnHeader" scope="col">
+                      Default
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">Default</td>
+                  </tr>
+                  <tr className="TableRow">
+                    <th className="TableRowHeader" scope="row">
+                      Prop
+                    </th>
+                    <td className="TableCell">Type</td>
+                    <td className="TableCell">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI. We cannot
+                      solve this problem in the Core realm.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3 className="Text size-5 mt-6 mb-3">Root</h3>
+            <p className="Text size-4 mb-3">
+              A top-level component that wraps the other components.
+            </p>
             <div className="TableRoot">
               <table className="TableTable">
                 <thead>
