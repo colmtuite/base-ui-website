@@ -33,6 +33,13 @@
   line-height: 1;
 }
 
+.SelectTrigger:focus-visible {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: black;
+  outline-offset: 2px;
+}
+
 @media screen and (hover: hover) {
   .SelectTrigger:hover {
     border-color: hsl(0deg 0% 0% / 13%);
