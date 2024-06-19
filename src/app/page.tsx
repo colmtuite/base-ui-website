@@ -13,6 +13,7 @@ export default function Home() {
           top: 49,
           width: 240,
           height: "calc(100% - 49px)",
+          borderRight: "1px solid gainsboro",
           padding: 12,
         }}
       >
@@ -152,7 +153,7 @@ export default function Home() {
               to do it. I’m sooo eager to stop discussing and start building at
               this point. But even before prototyping, it would be good to have
               directions from the people who will{" "}
-              <Link href="#" className="Link">
+              <Link href="/" className="Link">
                 make the decision
               </Link>{" "}
               like what information would they need? what should we prototype
@@ -179,7 +180,7 @@ export default function Home() {
                 Design 3 is tentatively planned for Material UI v7. See our
                 amazing new{" "}
                 <Link
-                  href="#"
+                  href="/"
                   style={{
                     color: "hsl(208 100% 45%)",
                     textUnderlineOffset: "4px",
@@ -191,7 +192,7 @@ export default function Home() {
                 </Link>{" "}
                 for more details. You can follow this{" "}
                 <Link
-                  href="#"
+                  href="/"
                   style={{
                     color: "hsl(208 100% 45%)",
                     textUnderlineOffset: "4px",
@@ -403,7 +404,7 @@ export default function Home() {
 
             <div className="d-f ai-center jc-center g-3 py-9">
               <a
-                href="#"
+                href="/"
                 className="LinkBlock jc-end"
                 style={{ minWidth: 200, height: "auto" }}
               >
@@ -440,7 +441,7 @@ export default function Home() {
               </a>
               <span role="separator" className="Separator" />
               <a
-                href="#"
+                href="/"
                 className="LinkBlock"
                 style={{ minWidth: 200, height: "auto" }}
               >

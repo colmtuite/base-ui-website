@@ -35,3 +35,7 @@
 .Link:active::after {
   background-color: var(--gray-container-2);
 }
+
+a[href^="#"] {
+  text-decoration: none;
+}
