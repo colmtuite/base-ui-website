@@ -3,7 +3,7 @@
   font-family: var(--ff-sans);
   font-weight: var(--fw-1);
   color: var(--gray-text-2);
-  scroll-margin-top: 64px;
+  scroll-margin-top: 80px;
 }
 
 .Text.size-1 {
