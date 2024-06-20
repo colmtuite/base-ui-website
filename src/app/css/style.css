@@ -12,6 +12,8 @@
 @import "components/kbd.css";
 @import "components/link.css";
 @import "components/link-block.css";
+@import "components/list.css";
+@import "components/pre.css";
 @import "components/search-button.css";
 @import "components/select.css";
 @import "components/separator.css";

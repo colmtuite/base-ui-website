@@ -10,5 +10,10 @@
   border: 1px solid var(--gray-outline-1);
   border-radius: 6px;
   position: relative;
-  top: -.5px
+  top: -.5px;
+}
+
+.Text .Code {
+  margin-left: 1px;
+  margin-right: 1px;
 }

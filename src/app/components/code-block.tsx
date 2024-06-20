@@ -4,14 +4,15 @@ export default function CodeBlock() {
   return (
     <div
       style={{
-        border: "1px solid gainsboro",
+        border: "1px solid var(--gray-outline-2)",
         borderRadius: 12,
+        overflow: "hidden",
       }}
     >
       <div
         style={{
           height: 150,
-          borderBottom: "1px solid gainsboro",
+          borderBottom: "1px solid var(--gray-outline-1)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -41,7 +42,7 @@ export default function CodeBlock() {
       <div
         style={{
           padding: 4,
-          borderBottom: "1px solid gainsboro",
+          borderBottom: "1px solid var(--gray-outline-1)",
         }}
       >
         <div className="d-f jc-sb">
@@ -155,11 +156,115 @@ export default function CodeBlock() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          height: 150,
-        }}
-      ></div>
+      <div style={{ background: "#FEFCFB" }}>
+        <pre className="Pre">
+          <div>
+            <span style={{ color: "var(--code-2)" }}>import</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>*</span>{" "}
+            <span style={{ color: "var(--code-2)" }}>as</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>React</span>{" "}
+            <span style={{ color: "var(--code-2)" }}>from</span>{" "}
+            <span style={{ color: "var(--code-5)" }}>'react'</span>;
+          </div>
+          <div>
+            <span style={{ color: "var(--code-2)" }}>import</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>*</span>{" "}
+            <span style={{ color: "var(--code-2)" }}>as</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>Tooltip</span>{" "}
+            <span style={{ color: "var(--code-2)" }}>from</span>{" "}
+            <span style={{ color: "var(--code-5)" }}>
+              '@base_ui/react/Tooltip'
+            </span>
+            ;
+          </div>
+          <div>
+            <span style={{ color: "var(--code-2)" }}>import</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>&#123; styled &#125;</span>{" "}
+            <span style={{ color: "var(--code-2)" }}>from</span>{" "}
+            <span style={{ color: "var(--code-5)" }}>'@mui/system'</span>;
+          </div>
+          <br />
+          <div>
+            <span style={{ color: "var(--code-2)" }}>
+              export default function
+            </span>{" "}
+            <span style={{ color: "var(--code-1)" }}>
+              UnstyledTooltipIntroduction
+            </span>
+            () &#123;
+          </div>
+          <div>
+            {"  "}
+            <span style={{ color: "var(--code-2)" }}>return</span> (
+          </div>
+          <div>
+            {"    "}&lt;<span style={{ color: "var(--code-6)" }}>div</span>{" "}
+            <span style={{ color: "var(--code-3)" }}>style</span>=&#123;&#123;{" "}
+            <span style={{ color: "var(--code-6)" }}>display</span>:{" "}
+            <span style={{ color: "var(--code-3)" }}>'flex'</span>,{" "}
+            <span style={{ color: "var(--code-6)" }}>gap</span>:{" "}
+            <span style={{ color: "var(--code-4)" }}>10</span> &#125;&#125;&gt;
+          </div>
+          <div>
+            {"      "}&lt;
+            <span style={{ color: "var(--code-1)" }}>
+              Tooltip.Provider
+            </span>{" "}
+            <span style={{ color: "var(--code-5)" }}>closeDelay</span>=&#123;
+            <span style={{ color: "var(--code-4)" }}>100</span>&#125;&gt;
+          </div>
+          <div>
+            {"        "}&lt;
+            <span style={{ color: "var(--code-1)" }}>Tooltip.Root</span>&gt;
+          </div>
+          <div>
+            {"          "}&lt;
+            <span style={{ color: "var(--code-1)" }}>AnchorButton</span>
+            <span style={{ color: "var(--code-5)" }}> aria-label</span>
+            ="bold"&gt;B&lt;/
+            <span style={{ color: "var(--code-1)" }}>AnchorButton</span>&gt;
+          </div>
+          <div>
+            {"          "}&lt;
+            <span style={{ color: "var(--code-1)" }}>
+              Tooltip.Positioner
+            </span>{" "}
+            <span style={{ color: "var(--code-5)" }}>sideOffset</span>=&#123;
+            <span style={{ color: "var(--code-4)" }}>7</span>&#125;&gt;
+          </div>
+          <div>
+            {"            "}&lt;
+            <span style={{ color: "var(--code-1)" }}>TooltipPopup</span>&gt;
+          </div>
+          <div>{"              "}Bold</div>
+          <div>
+            {"              "}&lt;
+            <span style={{ color: "var(--code-1)" }}>TooltipArrow</span> /&gt;
+          </div>
+          <div>
+            {"            "}&lt;/
+            <span style={{ color: "var(--code-1)" }}>TooltipPopup</span>&gt;
+          </div>
+          <div>
+            {"          "}&lt;/
+            <span style={{ color: "var(--code-1)" }}>Tooltip.Positioner</span>
+            &gt;
+          </div>
+          <div>
+            {"        "}&lt;/
+            <span style={{ color: "var(--code-1)" }}>Tooltip.Root</span>&gt;
+          </div>
+          <div>
+            {"      "}&lt;/
+            <span style={{ color: "var(--code-1)" }}>Tooltip.Provider</span>
+            &gt;
+          </div>
+          <div>
+            {"    "}&lt;/<span style={{ color: "var(--code-6)" }}>div</span>&gt;
+          </div>
+          <div>{"  "});</div>&#125;
+        </pre>
+      </div>
     </div>
   );
 }

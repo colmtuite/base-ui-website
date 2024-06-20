@@ -5,7 +5,7 @@ export default function AppBar() {
   return (
     <header className="AppBar">
       <div className="d-f ai-center jc-sb">
-        <div className="d-f ai-center g-3">
+        <div className="d-f ai-center g-2">
           <Link href="/" className="IconButton size-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ export default function AppBar() {
             </div>
             <kbd className="Kbd">⌘K</kbd>
           </button>
-          <span role="separator" className="Separator" />
+          <span role="separator" className="Separator ml-3 mr-1" />
           <a
             href="https://github.com/mui/base-ui"
             className="IconButton size-3"

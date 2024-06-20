@@ -49,9 +49,10 @@
 
 .Text.size-8 {
   font-size: var(--fs-8);
-  line-height: 32px;
+  line-height: 37px;
   font-weight: 500;
-  letter-spacing: -.038em;
+  letter-spacing: -.042em;
+  text-indent: -1.1px;
 }
 
 .Text.size-9 {

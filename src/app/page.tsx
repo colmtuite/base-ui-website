@@ -13,8 +13,9 @@ export default function Home() {
           top: 49,
           width: 240,
           height: "calc(100% - 49px)",
-          borderRight: "1px solid gainsboro",
+          // borderRight: "1px solid var(--gray-outline-1)",
           padding: 12,
+          overflowY: "auto",
         }}
       >
         <div className="pb-4">
@@ -42,7 +43,7 @@ export default function Home() {
         </div>
         <div className="pb-4">
           <div className="d-f ai-center h-7 pl-3">
-            <h4 className="Text size-3 weight-2 c-default">Animation</h4>
+            <h4 className="Text size-3 weight-2 c-default">Guides</h4>
           </div>
           <Link href="/" className="LinkBlock active">
             Styling
@@ -57,7 +58,7 @@ export default function Home() {
             Server-side Rendering
           </Link>
         </div>
-        <div className="pb-4">
+        <div>
           <div className="d-f ai-center h-7 pl-3">
             <h4 className="Text size-3 weight-2 c-default">Components</h4>
           </div>
@@ -119,13 +120,220 @@ export default function Home() {
             <div className="py-9">
               <h1 className="Text size-8 mb-2">Tooltip</h1>
               <p className="Text size-5 color-gray weight-1">
-                A valid outcome of this proposal is just saying that after going
-                back and forth many times, we think this decision is
-                higher-level, presenting the information that has been shared
-                here.
+                Tooltips are visual-only floating elements that display
+                information about a trigger element when a user hovers or
+                focuses it.
               </p>
             </div>
             <CodeBlock />
+            <h2 className="Text size-6 mt-6 mb-3" id="installation">
+              <a href="#installation" className="Link">
+                Features
+              </a>
+            </h2>
+            <ul
+              style={{
+                margin: 0,
+                padding: 0,
+                listStyle: "none",
+                display: "flex",
+                flexDirection: "column",
+                gap: 8,
+              }}
+            >
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Keyboard navigation</p>
+                </div>
+              </li>
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Orientation</p>
+                </div>
+              </li>
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Reading direction</p>
+                </div>
+              </li>
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Screenreader announcements</p>
+                </div>
+              </li>
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Indeterminate state</p>
+                </div>
+              </li>
+              <li>
+                <div className="d-f ai-center g-3">
+                  <div
+                    style={{
+                      backgroundColor: "orchid",
+                      width: 32,
+                      height: 32,
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "white",
+                    }}
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.5 4H1.5C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H13.5C13.7761 11 14 10.7761 14 10.5V4.5C14 4.22386 13.7761 4 13.5 4ZM1.5 3C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H13.5C14.3284 12 15 11.3284 15 10.5V4.5C15 3.67157 14.3284 3 13.5 3H1.5ZM2 5H3V6H2V5ZM5 5H4V6H5V5ZM6 5H7V6H6V5ZM9 5H8V6H9V5ZM10 5H11V6H10V5ZM13 5H12V6H13V5ZM11 7H12V8H11V7ZM13 9H12V10H13V9ZM9 7H10V8H9V7ZM8 7H7V8H8V7ZM5 7H6V8H5V7ZM4 7H3V8H4V7ZM2 9H3V10H2V9ZM11 9H4V10H11V9Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p className="Text size-3">Typeahead</p>
+                </div>
+              </li>
+            </ul>
             <h2 className="Text size-6 mt-6 mb-3" id="installation">
               <a href="#installation" className="Link">
                 Installation
@@ -142,6 +350,79 @@ export default function Home() {
               We drilled down onto this problem and found out that it touches
               all products and not just Material UI. We cannot solve this
               problem in the Core realm.
+            </p>
+            <ul className="List mb-3">
+              <li className="ListItem">
+                <p className="Text size-4">
+                  We drilled down onto this problem and found out that it
+                  touches all products and not just Material UI. We cannot solve
+                  this problem in the Core realm.
+                </p>
+              </li>
+              <li className="ListItem">
+                <p className="Text size-4">
+                  We drilled down onto this problem and found out that it
+                  touches all products and not just Material UI. We cannot solve
+                  this problem in the Core realm.
+                </p>
+              </li>
+              <ul className="List">
+                <li className="ListItem">
+                  <p className="Text size-4">
+                    We drilled down onto this problem and found out that it
+                    touches all products and not just Material UI. We cannot
+                    solve this problem in the Core realm.
+                  </p>
+                </li>
+                <li className="ListItem">
+                  <p className="Text size-4">
+                    We drilled down onto this problem and found out that it
+                    touches all products and not just Material UI. We cannot
+                    solve this problem in the Core realm.
+                  </p>
+                </li>
+                <ul className="List">
+                  <li className="ListItem">
+                    <p className="Text size-4">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI. We cannot
+                      solve this problem in the Core realm.
+                    </p>
+                  </li>
+                  <li className="ListItem">
+                    <p className="Text size-4">
+                      We drilled down onto this problem and found out that it
+                      touches all products and not just Material UI. We cannot
+                      solve this problem in the Core realm.
+                    </p>
+                  </li>
+                </ul>
+                <li className="ListItem">
+                  <p className="Text size-4">
+                    We drilled down onto this problem and found out that it
+                    touches all products and not just Material UI. We cannot
+                    solve this problem in the Core realm.
+                  </p>
+                </li>
+              </ul>
+              <li className="ListItem">
+                <p className="Text size-4">
+                  We drilled down onto this problem and found out that it
+                  touches all products and not just Material UI. We cannot solve
+                  this problem in the Core realm.
+                </p>
+              </li>
+            </ul>
+            <p className="Text size-4 mb-3">
+              If a prototype would help the decision, I would be more than happy
+              to do it. I’m sooo eager to stop discussing and start building at
+              this point. But even before prototyping, it would be good to have
+              directions from the people who will{" "}
+              <Link href="/" className="Link">
+                make the decision
+              </Link>{" "}
+              like what information would they need? what should we prototype
+              exactly?
             </p>
             <h2 className="Text size-6 mt-6 mb-3" id="overview">
               <a href="#overview" className="Link">
@@ -170,36 +451,20 @@ export default function Home() {
               >
                 <path
                   d="M7.49991 0.876892C3.84222 0.876892 0.877075 3.84204 0.877075 7.49972C0.877075 11.1574 3.84222 14.1226 7.49991 14.1226C11.1576 14.1226 14.1227 11.1574 14.1227 7.49972C14.1227 3.84204 11.1576 0.876892 7.49991 0.876892ZM1.82707 7.49972C1.82707 4.36671 4.36689 1.82689 7.49991 1.82689C10.6329 1.82689 13.1727 4.36671 13.1727 7.49972C13.1727 10.6327 10.6329 13.1726 7.49991 13.1726C4.36689 13.1726 1.82707 10.6327 1.82707 7.49972ZM8.24992 4.49999C8.24992 4.9142 7.91413 5.24999 7.49992 5.24999C7.08571 5.24999 6.74992 4.9142 6.74992 4.49999C6.74992 4.08577 7.08571 3.74999 7.49992 3.74999C7.91413 3.74999 8.24992 4.08577 8.24992 4.49999ZM6.00003 5.99999H6.50003H7.50003C7.77618 5.99999 8.00003 6.22384 8.00003 6.49999V9.99999H8.50003H9.00003V11H8.50003H7.50003H6.50003H6.00003V9.99999H6.50003H7.00003V6.99999H6.50003H6.00003V5.99999Z"
-                  fill="hsl(208 100% 45%)"
+                  fill="currentColor"
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <p className="Text size-3" style={{ color: "hsl(208 100% 45%)" }}>
+              <p className="Text size-3 color-gray">
                 Material UI v5 supports Material Design 2. Adoption of Material
                 Design 3 is tentatively planned for Material UI v7. See our
                 amazing new{" "}
-                <Link
-                  href="/"
-                  style={{
-                    color: "hsl(208 100% 45%)",
-                    textUnderlineOffset: "4px",
-                    textDecorationThickness: "1px",
-                    textDecorationColor: "hsl(208 100% 45% / 15%)",
-                  }}
-                >
+                <Link href="/" className="Link">
                   announcement blog post
                 </Link>{" "}
                 for more details. You can follow this{" "}
-                <Link
-                  href="/"
-                  style={{
-                    color: "hsl(208 100% 45%)",
-                    textUnderlineOffset: "4px",
-                    textDecorationThickness: "1px",
-                    textDecorationColor: "hsl(208 100% 45% / 15%)",
-                  }}
-                >
+                <Link href="/" className="Link">
                   GitHub issue
                 </Link>{" "}
                 for future updates.
@@ -218,8 +483,8 @@ export default function Home() {
             </h3>
             <p className="Text size-4 mb-3">
               Wraps around <code className="Code">&lt;App /&gt;</code> or a
-              group of
-              <code className="Code">&lt;Tooltip.Root&gt;</code> components.
+              group of <code className="Code">&lt;Tooltip.Root&gt;</code>{" "}
+              components.
             </p>
             <div className="TableRoot">
               <table className="TableTable">
@@ -407,7 +672,7 @@ export default function Home() {
                   Edit this page on Github
                 </a>
               </span>
-              <div className="d-f ai-center jc-sb g-2">
+              <div className="d-f ai-center g-2">
                 <span className="Text size-3 color-gray">
                   Was this page helpful?
                 </span>
@@ -587,11 +852,81 @@ export default function Home() {
           right: 0,
           width: 240,
           height: "calc(100% - 49px)",
-          borderLeft: "1px solid gainsboro",
-          padding: 12,
+          // borderLeft: "1px solid var(--gray-outline-1)",
+          padding: "12px 24px",
+          overflowY: "auto",
         }}
       >
-        <h4 className="Text size-3 weight-2">Contents</h4>
+        <div className="d-f ai-center h-7 mb-2">
+          <h4 className="Text size-3 weight-2">Contents</h4>
+        </div>
+        <nav>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Introduction
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Installation
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Anatomy
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Provider
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Accessibility
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Placement
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Offset
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Delay
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Controlled
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Arrow
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Cursor Following
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Anchoring
+            </a>
+          </div>
+          <div className="mb-3">
+            <a href="#api" className="Text size-3 Link color-gray">
+              Styling
+            </a>
+          </div>
+        </nav>
       </div>
     </div>
   );

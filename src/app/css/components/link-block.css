@@ -20,7 +20,7 @@
 
 @media screen and (hover: hover) {
   .LinkBlock:hover {
-    background-color: var(--gray-container-2);
+    background-color: var(--gray-container-1);
   }
 }
 
@@ -32,5 +32,5 @@
 }
 
 .LinkBlock.active {
-  background-color: var(--gray-container-3);
+  background-color: var(--gray-container-2);
 }
