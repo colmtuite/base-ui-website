@@ -16,17 +16,13 @@ export default function AppBar() {
               className="Icon"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M11 2C6.58172 2 3 5.58172 3 10V14C3 18.4183 6.58172 22 11 22V2Z"
+                d="M12.5 6V22C16.9183 22 20.5 18.4183 20.5 14C20.5 9.58172 16.9183 6 12.5 6Z"
                 fill="var(--gray-text-2)"
-              ></path>
+              />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12 22H12.5C16.6421 22 20 18.6421 20 14.5C20 10.3579 16.6421 7 12.5 7H12V22Z"
+                d="M11.5 2.00001C7.08172 2.00001 3.5 5.58173 3.5 10V14C3.5 18.4183 7.08172 22 11.5 22V2.00001Z"
                 fill="var(--gray-text-2)"
-              ></path>
+              />
             </svg>
           </Link>
           <select className="SelectTrigger size-1">
