@@ -3,6 +3,7 @@ import * as React from "react";
 export default function CodeBlock() {
   return (
     <div
+      className="MDXCodeBlock"
       style={{
         border: "1px solid var(--gray-outline-2)",
         borderRadius: 12,
