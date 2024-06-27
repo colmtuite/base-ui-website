@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import AppBar from "./components/app-bar";
 import Navigation from "./components/navigation";
@@ -8,6 +9,8 @@ import APIReference from "./components/api-reference";
 import Footer from "./components/footer";
 import Features from "./components/features";
 import FeedbackForm from "./components/feedback-form";
+import * as Dialog from "@base_ui/react/Dialog";
+import CopyCode from "./components/copy-code";
 
 export default function Home() {
   return (
@@ -25,7 +28,7 @@ export default function Home() {
               marginRight: "auto",
             }}
           >
-            <div className="py-9">
+            <div className="pt-9 pb-3">
               <h1 className="Text size-8 mb-2">Tooltip</h1>
               <p className="Text size-5 color-gray weight-1">
                 Tooltips are visual-only floating elements that display
@@ -36,9 +39,12 @@ export default function Home() {
             <CodeBlock />
             {/* <Features /> */}
             <h2 className="Text size-6" id="installation">
-              <a href="#installation" className="Link">
-                Installation
-              </a>
+              <div className="d-f ai-center jc-sb">
+                <a href="#installation" className="Link">
+                  Installation
+                </a>
+                <FeedbackForm />
+              </div>
             </h2>
             <p className="Text size-4">
               Base UI components are all available as a single package.
@@ -99,7 +105,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     <span style={{ color: "var(--code-3)" }}>npm install</span>{" "}
@@ -119,7 +126,8 @@ export default function Home() {
                 overflow: "hidden",
               }}
             >
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     <span style={{ color: "var(--code-2)" }}>import</span>{" "}
@@ -136,17 +144,23 @@ export default function Home() {
               </div>
             </div>
 
-            <h2 className="Text size-6" id="installation">
-              <a href="#installation" className="Link">
-                Anatomy
-              </a>
+            <h2 className="Text size-6" id="anatomy">
+              <div className="d-f ai-center jc-sb">
+                <a href="#anatomy" className="Link">
+                  Anatomy
+                </a>
+                <FeedbackForm />
+              </div>
             </h2>
             <Anatomy />
 
-            <h2 className="Text size-6" id="installation">
-              <a href="#installation" className="Link">
-                Provider
-              </a>
+            <h2 className="Text size-6" id="provider">
+              <div className="d-f ai-center jc-sb">
+                <a href="#provider" className="Link">
+                  Provider
+                </a>
+                <FeedbackForm />
+              </div>
             </h2>
             <p className="Text size-4">
               <code className="Code">Tooltip.Provider</code> provides a shared
@@ -163,7 +177,8 @@ export default function Home() {
                 overflow: "hidden",
               }}
             >
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     &lt;
@@ -188,10 +203,13 @@ export default function Home() {
               </div>
             </div>
 
-            <h2 className="Text size-6" id="installation">
-              <a href="#installation" className="Link">
-                Accessibility
-              </a>
+            <h2 className="Text size-6" id="accessibility">
+              <div className="d-f ai-center jc-sb">
+                <a href="#accessibility" className="Link">
+                  Accessibility
+                </a>
+                <FeedbackForm />
+              </div>
             </h2>
             <p className="Text size-4">
               Tooltips are only for sighted users with access to a pointer with
@@ -208,7 +226,8 @@ export default function Home() {
                 overflow: "hidden",
               }}
             >
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     &lt;
@@ -274,9 +293,12 @@ export default function Home() {
             </p>
 
             <h2 className="Text size-6" id="placement">
-              <a href="#placement" className="Link">
-                Placement
-              </a>
+              <div className="d-f ai-center jc-sb">
+                <a href="#placement" className="Link">
+                  Placement
+                </a>
+                <FeedbackForm />
+              </div>
             </h2>
             <p className="Text size-4">
               By default, the tooltip is placed on the top side of its trigger.
@@ -290,7 +312,8 @@ export default function Home() {
                 overflow: "hidden",
               }}
             >
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     &lt;
@@ -354,7 +377,8 @@ export default function Home() {
                 overflow: "hidden",
               }}
             >
-              <div style={{ background: "#FEFCFB" }}>
+              <div className="p-r" style={{ background: "#FEFCFB" }}>
+                <CopyCode />
                 <pre className="Pre">
                   <div>
                     &lt;

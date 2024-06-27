@@ -70,6 +70,7 @@ export default function Navigation() {
         </Link>
         <Link href="/" className="LinkBlock">
           Dialog
+          <span className="Badge ml-1">Beta</span>
         </Link>
         <Link href="/" className="LinkBlock">
           HoverCard
@@ -79,6 +80,7 @@ export default function Navigation() {
         </Link>
         <Link href="/" className="LinkBlock">
           NumberField
+          <span className="Badge ml-1">Beta</span>
         </Link>
         <Link href="/" className="LinkBlock">
           Popover
@@ -97,6 +99,7 @@ export default function Navigation() {
         </Link>
         <Link href="/" className="LinkBlock">
           Tabs
+          <span className="Badge ml-2">Beta</span>
         </Link>
         <Link href="/" className="LinkBlock">
           Tooltip

@@ -1,12 +1,16 @@
 import * as React from "react";
+import FeedbackForm from "./feedback-form";
 
 export default function APIReference() {
   return (
     <div>
       <h2 className="Text size-6" id="api">
-        <a href="#api" className="Link">
-          API Reference
-        </a>
+        <div className="d-f ai-center jc-sb">
+          <a href="#api" className="Link">
+            API Reference
+          </a>
+          <FeedbackForm />
+        </div>
       </h2>
       <h3 className="Text size-5" id="provider">
         <a href="#provider" className="Link">

@@ -1,4 +1,5 @@
 import * as React from "react";
+import CopyCode from "./copy-code";
 
 export default function Anatomy() {
   return (
@@ -10,7 +11,8 @@ export default function Anatomy() {
         overflow: "hidden",
       }}
     >
-      <div style={{ background: "#FEFCFB" }}>
+      <div className="p-r" style={{ background: "#FEFCFB" }}>
+        <CopyCode />
         <pre className="Pre">
           <div>
             &lt;

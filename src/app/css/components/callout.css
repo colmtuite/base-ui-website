@@ -1,12 +1,12 @@
 .Callout {
-  background-color: #FBFDFF;
-  border-radius: 12px;
+  background-color: white;
+  border-radius: 6px;
   padding: 16px;
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  border: 1px solid hsl(205 93% 88%);
+  border: 2px solid hsl(202 100% 50%);
   gap: var(--space-3);
-  color: #0D74CE;
+  color: var(--gray-text-1);
 }
